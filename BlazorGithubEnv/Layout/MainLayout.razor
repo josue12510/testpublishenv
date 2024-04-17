@@ -11,6 +11,20 @@
 
         <article class="content px-4">
             @Body
+            <br />
+          
+            @* method="POST" action="/handler" *@
+            <EditForm OnValidSubmit="OnFormValid" Model="Model">
+                <div class="mb-2">
+                    <label><InputText id="married" @bind-Value="Model.Nombre"></InputText> Nombre</label>
+                </div>
+                <div class="checkbox mb-3">
+                    <!-- The Turnstile widget will be injected in the following div. -->
+                    <div id="example-container"></div>
+                    <!-- end. -->
+                </div>
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+            </EditForm>
         </article>
     </main>
 </div>

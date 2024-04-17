@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorGithubEnv", "BlazorGithubEnv\BlazorGithubEnv.csproj", "{91F73F7F-25E5-45B3-933D-2F7F0300CCE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorGithubEnv", "BlazorGithubEnv\BlazorGithubEnv.csproj", "{91F73F7F-25E5-45B3-933D-2F7F0300CCE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{500EB68D-C0D3-4F2A-BAE6-3EEB9FDE7E74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{91F73F7F-25E5-45B3-933D-2F7F0300CCE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91F73F7F-25E5-45B3-933D-2F7F0300CCE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91F73F7F-25E5-45B3-933D-2F7F0300CCE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{500EB68D-C0D3-4F2A-BAE6-3EEB9FDE7E74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{500EB68D-C0D3-4F2A-BAE6-3EEB9FDE7E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{500EB68D-C0D3-4F2A-BAE6-3EEB9FDE7E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{500EB68D-C0D3-4F2A-BAE6-3EEB9FDE7E74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

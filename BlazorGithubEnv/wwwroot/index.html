@@ -22,7 +22,7 @@
         </svg>
         <div class="loading-progress-text"></div>
     </div>
-    <div id="example-container"></div>
+  
     <div id="blazor-error-ui">
         An unhandled error has occurred.
         <a href="" class="reload">Reload</a>
@@ -36,9 +36,17 @@
                 sitekey: '0x4AAAAAAAXPTvO_jA7MvsAJ',
                 callback: function (token) {
                     console.log(`Challenge Success ${token}`);
+                    DotNet.invokeMethodAsync("BlazorGithubEnv","GetDataFromJs", token);
                 },
             })
         } 
+
+        function GetData() {
+            var item = document.getElementsByName("cf-turnstile-response");
+            var response = item[0].value;
+            return response;
+
+        }
     </script>
 </body>
 
